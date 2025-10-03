@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="index.html">MyPortfolio</a></div>
+      <button class="menu-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hello, I'm <span class="highlight">Dennis</span></h1>
+    <p>Backend Developer | Bug Bounty Enthusiast | Tech Explorer</p>
+    <a href="projects.html" class="btn">View My Work</a>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="projects-preview">
+    <h2>Featured Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>API Monitoring Tool</h3>
+        <p>A Python-based API health checker with alert system.</p>
+      </div>
+      <div class="card">
+        <h3>Farm Management API</h3>
+        <p>Django REST API to manage crops, track maturity, and estimate yield.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dennis Gachuru. All rights reserved.</p>
+  </footer>
+</body>
+</html>
